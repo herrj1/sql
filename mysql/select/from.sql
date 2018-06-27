@@ -1,0 +1,3 @@
+--Example
+
+Select * from customers;
