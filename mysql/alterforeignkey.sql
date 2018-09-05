@@ -1,6 +1,13 @@
 ALTER TABLE `docs`
-	ADD CONSTRAINT `fk_student_map_completedapps`
+	ADD CONSTRAINT `fk_user_map_completedapps`
 	FOREIGN KEY IF NOT EXISTS (`stid`)
-		REFERENCES `student`(`id`)
+		REFERENCES `user`(`id`)
+		ON DELETE CASCADE
+ON UPDATE CASCADE;
+
+ALTER TABLE `person`
+	ADD CONSTRAINT `fk_user_map_details`
+	FOREIGN KEY IF NOT EXISTS (`stid`)
+		REFERENCES `user`(`id`)
 		ON DELETE CASCADE
 ON UPDATE CASCADE;
