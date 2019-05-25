@@ -1,5 +1,5 @@
 select s.firstname, s.lastname, s.studentid
-from student s
+from student r
 join course c on s.id = c.studentid
 join courseavailability i on c.courseid = i.id
-where s.id = 1;
+where r.id = 1;
