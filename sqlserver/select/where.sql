@@ -3,4 +3,4 @@
 select * from users where firstname = 'Joe';
 
 
-select * from users where lastname = 'Doe';
+select * from users where lastname = 'Doea';
