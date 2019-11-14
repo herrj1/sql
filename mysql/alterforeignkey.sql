@@ -5,6 +5,8 @@ ALTER TABLE `doc`
 		ON DELETE CASCADE
 ON UPDATE CASCADE;
 
+
+
 ALTER TABLE `person`
 	ADD CONSTRAINT `fk_user_map_details`
 	FOREIGN KEY IF NOT EXISTS (`stid`)
