@@ -1,4 +1,4 @@
---Example
+--Examples
 
 Select * from customers;
 
