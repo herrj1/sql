@@ -1,4 +1,4 @@
---Example
+--Examples
 
 select * from users where firstname = 'Joe';
 
