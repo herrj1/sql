@@ -5,6 +5,7 @@
 --the task to continue unless both tables are
 --deleted at the same time. Concurrent, command
 --executions are not possibles.
+
 SET FOREIGN_KEY_CHECKS = 0;
 drop table if exists customers;
 drop table if exists invoices;
