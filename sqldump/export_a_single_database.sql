@@ -5,7 +5,6 @@ mysqldump -d -h localhost -u root -p password databasename > custom_database_nam
 mysqldump -d -h localhost -u root -p password databasename > custom_database_customer_wate.sql
 
 mysqldump -d -h localhost -u root -p password databasename > custom_database_name_dat.sql
-
 mysqldump -d -h localhost -u root -p password databasename > customdatabase_name_date.sql
 
 mysqldump -d -h localhost -u root -p password databasename > customdatabase_name_date1232.sql
