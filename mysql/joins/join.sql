@@ -1,8 +1,5 @@
 select s.firstname, s.lastname, s.studentid
-
 from student r
-
-
 
 join course c on s.id = c.studentid
 
