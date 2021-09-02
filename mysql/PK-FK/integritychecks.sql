@@ -7,7 +7,9 @@
 --executions are not possibles.
 
 SET FOREIGN_KEY_CHECKS = 0;
+
 drop table if exists customers;
+
 drop table if exists invoices;
 drop table if exists invoice_details;
 SET FOREIGN_KEY_CHECKS = 1;
